@@ -1,8 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Fascinate&family=Oi&family=Plaster&family=Suravaram&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Fascinate&family=Oi&family=Plaster&family=Suravaram&display=swap');
 *{
     margin:0;
     text-decoration: none;
     padding:0;
     box-sizing: 0;
+}
+
+body {
+    background-color: #fff3e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.caixaform {
+    background-color: #f4cea7;
+    padding: 30px;
+    border-radius: 9px;
+    width: 100%;
+    max-width: 650px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Chewy';
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Chewy';
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    font-family: c;
+    font-size: 16px;
+    background-color: #fff3e7;
+    color: rgb(0, 0, 0);
+
+}
+
+textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #060000;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff3e7;
+    color: rgb(0, 0, 0);
+
+}
+  
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #000000;
+    color: #000000;
+    font-size: 16px;   
 }
