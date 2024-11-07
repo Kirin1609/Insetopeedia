@@ -8,3 +8,210 @@
     padding:0;
     box-sizing: 0;
 }
+
+body{
+    background-color: #fff3e7;
+    color: white;
+}
+
+table{
+    background-color: #d2ffb2;
+    color: white;
+    width: 100%;
+    height: 100px;
+}
+
+table tr{
+    height: 180px;
+}
+    
+#Tuta{
+    position: relative;
+    bottom: -20px;
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+}
+.Ctxt2{
+    position: relative;
+    border-radius:10px;
+    background-color: #100F0F;
+    height:260px;
+    width: 700px;
+    left: -50px;
+}
+.Ctxt2 ul{
+    position: relative;
+    left: -100px;
+    width: 300px;
+    height: 200px;
+    list-style-type: none;
+    display: flex;
+    margin: 0px 120px 0px 120px; /* superior, direito, inferior, esquerdo */
+    justify-content: space-between;
+}
+
+#TutaT{
+    margin: 0px 0px 0px 50px; /* superior, direito, inferior, esquerdo */;
+}
+
+#icons1{
+    position: relative;
+    top: 20px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+#icon1{
+    height: 46px;
+    width: 46px;
+    margin: -3px 20px 0px 20px; /* superior, direito, inferior, esquerdo */;
+}
+#icon2{
+    height: 40px;
+    width: 40px;
+}
+
+#Gi{
+    position: relative;
+    bottom: -20px;
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+}
+.Ctxt3{
+    position: relative;
+    right: -150px;
+    border-radius:10px;
+    background-color: #100F0F;
+    height:260px;
+    width: 700px;
+}
+
+.Ctxt3 ul{
+    position: relative;
+    left: -100px;
+    width: 300px;
+    height: 200px;
+    list-style-type: none;
+    display: flex;
+    margin: 20px 100px 0px 120px; /* superior, direito, inferior, esquerdo */
+    justify-content: space-between; 
+}
+
+#GiT{
+    margin: 0px 0px 0px 50px; /* superior, direito, inferior, esquerdo */;
+}
+
+#icons2{
+    position: relative;
+    top: 1px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+#icon3{
+    height: 46px;
+    width: 46px;
+    margin: -3px 20px 0px 20px; /* superior, direito, inferior, esquerdo */;
+}
+#icon4{
+    height: 40px;
+    width: 40px;
+}
+
+
+#Ieda{
+    position: relative;
+    bottom: -20px;
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+}
+
+.Ctxt4{
+    position: relative;
+    left: -50px;
+    border-radius:10px;
+    height:260px;
+    width: 700px;
+    background-color:#100F0F;
+}
+
+.Ctxt4 ul{
+    position: relative;
+    left: -100px;
+    width: 300px;
+    height: 200px;
+    list-style-type: none;
+    display: flex;
+    margin: 20px 120px 0px 120px; /* superior, direito, inferior, esquerdo */
+    justify-content: space-between;
+}
+
+#IedaT{
+    margin: 0px 0px 0px 50px; /* superior, direito, inferior, esquerdo */;
+}
+
+#icons3{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+#icon5{
+    height: 46px;
+    width: 46px;
+    margin: -3px 20px 0px 20px; /* superior, direito, inferior, esquerdo */;
+}
+
+#icon6{
+    height: 40px;
+    width: 40px;
+}
+
+#Marcos{
+    position: relative;
+    bottom: -20px;
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+}
+.Ctxt5{
+    position: relative;
+    right: -150px;
+    border-radius:10px;
+    background-color: #100F0F;
+    height:260px;
+    width: 700px;
+}
+
+.Ctxt5 ul{
+    position: relative;
+    left: -100px;
+    width: 300px;
+    height: 200px;
+    list-style-type: none;
+    display: flex;
+    margin: 20px 100px 0px 120px; /* superior, direito, inferior, esquerdo */
+    justify-content: space-between; 
+}
+
+#MarcosT{
+    margin: 0px 0px 0px 50px; /* superior, direito, inferior, esquerdo */;
+}
+
+#icons4{
+    position: relative;
+    top: 1px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+#icon6{
+    height: 46px;
+    width: 46px;
+    margin: -3px 20px 0px 20px; /* superior, direito, inferior, esquerdo */;
+}
