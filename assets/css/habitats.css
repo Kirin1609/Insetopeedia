@@ -6,3 +6,15 @@
     padding:0;
     box-sizing: 0;
 }
+.texto{
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+}
+section{
+    position: relative;
+    top: 200px;
+    display: flex; 
+    justify-content: space-between;
+}
