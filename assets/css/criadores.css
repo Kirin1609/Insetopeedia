@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Fascinate&family=Oi&family=Plaster&family=Suravaram&display=swap');
-
-
-
 *{
     margin:0;
     text-decoration: none;
     padding:0;
     box-sizing: 0;
+    font-family: 'Chewy';
 }
 
 body{
@@ -35,7 +33,7 @@ table tr{
 .Ctxt2{
     position: relative;
     border-radius:10px;
-    background-color: #100F0F;
+    background-color: #f4cea7;
     height:260px;
     width: 700px;
     left: -50px;
@@ -83,7 +81,7 @@ table tr{
     position: relative;
     right: -150px;
     border-radius:10px;
-    background-color: #100F0F;
+    background-color: #f4cea7;
     height:260px;
     width: 700px;
 }
@@ -136,7 +134,7 @@ table tr{
     border-radius:10px;
     height:260px;
     width: 700px;
-    background-color:#100F0F;
+    background-color:#f4cea7;
 }
 
 .Ctxt4 ul{
@@ -182,7 +180,7 @@ table tr{
     position: relative;
     right: -150px;
     border-radius:10px;
-    background-color: #100F0F;
+    background-color: #f4cea7;
     height:260px;
     width: 700px;
 }
