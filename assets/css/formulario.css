@@ -56,7 +56,7 @@ body {
 h2{
     text-align: center;
     font-size: 30px;
-    font-family: 'Chewy';
+    font-family:"Fascinate", serif; ;
 }
 
 
@@ -122,5 +122,5 @@ button {
 
 .footer p {
     margin-top: 10px; 
-    color: #036527; 
+    color: #036527;; 
 }
