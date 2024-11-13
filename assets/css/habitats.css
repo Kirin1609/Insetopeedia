@@ -1,10 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Courgette&family=Fascinate&family=Oi&family=Plaster&family=Suravaram&display=swap');
-*{
-    margin:0;
-    text-decoration: none;
-    padding:0;
-    box-sizing: 0;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8e0; 
+    color: #333; 
+}
+
+header {
+    background-color: #d2ffb2; 
+    color: white;
+    padding: 10px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 15px;
+    color: #24550c;
+    font-family:"Fascinate", serif;
+}
+
+.nav-item a {
+    color: rgb(8, 77, 29);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+    
+
 .texto{
     position: relative;
     display: flex;

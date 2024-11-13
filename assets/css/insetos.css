@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0f8e0; 
+    background-color: #fff3ef; 
     color: #333; 
 }
 
@@ -79,14 +79,3 @@ ul li {
 
 ul li:hover {
     background-color: #c8e6c9; }
-
-
-footer {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #4caf50; 
-    color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
