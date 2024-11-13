@@ -35,7 +35,6 @@ header {
     transition: color 0.3s;
 }
 
-    
 
 body{
     background-color: #fff3e7;
@@ -241,4 +240,24 @@ table tr{
     height: 46px;
     width: 46px;
     margin: -3px 20px 0px 20px; /* superior, direito, inferior, esquerdo */;
+}
+.footer {
+    padding: 20px 0; 
+    position: relative;
+    bottom: 0; 
+    width: 100%; 
+    align-items: center;
+}
+.footer .social-icon {
+    margin: 0 15px; 
+}
+
+.footer img {
+    width: 30px; 
+    height: 30px; 
+}
+
+.footer p {
+    margin-top: 10px; 
+    color: #036527; 
 }
