@@ -1,10 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Fascinate&family=Oi&family=Plaster&family=Suravaram&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Courgette&family=Fascinate&family=Oi&family=Plaster&family=Suravaram&display=swap');
+
 *{
-    margin:0;
+    margin: 0;
     text-decoration: none;
-    padding:0;
+    padding: 0;
     box-sizing: 0;
 }
-header{
+
+header {
     background-color: rgb(186, 243, 185);
+    margin-bottom: 2%;
+    font-family: "Bodoni Moda", serif;
+}
+
+.carousel-inner img {
+    height: 70vb;
+    width: 100%;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
 }
