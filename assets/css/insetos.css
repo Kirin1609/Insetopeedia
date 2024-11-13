@@ -1,17 +1,92 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Fascinate&family=Oi&family=Plaster&family=Suravaram&display=swap');
-*{
-    margin:0;
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Courgette&family=Fascinate&family=Oi&family=Plaster&family=Suravaram&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8e0; 
+    color: #333; 
+}
+
+header {
+    background-color: #d2ffb2; 
+    color: white;
+    padding: 10px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 15px;
+    color: #24550c;
+    font-family:"Fascinate", serif;
+}
+
+.nav-item a {
+    color: rgb(8, 77, 29);
     text-decoration: none;
-    padding:0;
-    box-sizing: 0;
-   
-
+    transition: color 0.3s;
 }
 
-header{
-    background-color:#d2ffb2;
-    padding: 0.5%;
-    font-family: "Bodoni Moda", serif;
+    
 
+.container {
+    margin-top: 20px;
 }
 
+.corpo {
+    border-radius: 10px; 
+    overflow: hidden; 
+}
+
+.carousel img {
+    height: 400px; 
+    object-fit: cover; 
+}
+
+.info-box {
+    background-color: #fff8e1; 
+    border: 1px solid #ffe082; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #4caf50; /
+}
+
+ul {
+    list-style-type: none; 
+    padding-left: 0; 
+}
+
+ul li {
+    background-color: #e8f5e9;
+    margin: 5px 0; 
+    padding: 10px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+
+ul li:hover {
+    background-color: #c8e6c9; }
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #4caf50; 
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
