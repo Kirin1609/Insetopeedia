@@ -1,12 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Fascinate&family=Oi&family=Plaster&family=Suravaram&display=swap');
-*{
-    margin:0;
-    text-decoration: none;
-    padding:0;
-    box-sizing: 0;
-    font-family: 'Chewy';
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Courgette&family=Fascinate&family=Oi&family=Plaster&family=Suravaram&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8e0; 
+    color: #333; 
+}
+
+header {
+    background-color: #d2ffb2; 
+    color: rgb(4, 72, 38);
+    padding: 10px 0;
+}
+
+th{
+    font-family: "Fascinate", serif;
+    color: #24550c;
 
 }
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 15px;
+    color: #24550c;
+    font-family:"Fascinate", serif;
+}
+
+.nav-item a {
+    color: rgb(8, 77, 29);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
 
 body{
     background-color: #fff3e7;
@@ -45,12 +79,12 @@ table tr{
     height: 200px;
     list-style-type: none;
     display: flex;
-    margin: 0px 120px 0px 120px; /* superior, direito, inferior, esquerdo */
+    margin: 0px 120px 0px 120px; 
     justify-content: space-between;
 }
 
 #TutaT{
-    margin: 0px 0px 0px 50px; /* superior, direito, inferior, esquerdo */;
+    margin: 0px 0px 0px 50px; 
 }
 
 #icons1{
@@ -63,7 +97,7 @@ table tr{
 #icon1{
     height: 46px;
     width: 46px;
-    margin: -3px 20px 0px 20px; /* superior, direito, inferior, esquerdo */;
+    margin: -3px 20px 0px 20px; 
 }
 #icon2{
     height: 40px;
@@ -93,12 +127,12 @@ table tr{
     height: 200px;
     list-style-type: none;
     display: flex;
-    margin: 20px 100px 0px 120px; /* superior, direito, inferior, esquerdo */
+    margin: 20px 100px 0px 120px; 
     justify-content: space-between; 
 }
 
 #GiT{
-    margin: 0px 0px 0px 50px; /* superior, direito, inferior, esquerdo */;
+    margin: 0px 0px 0px 50px; 
 }
 
 #icons2{
@@ -112,7 +146,7 @@ table tr{
 #icon3{
     height: 46px;
     width: 46px;
-    margin: -3px 20px 0px 20px; /* superior, direito, inferior, esquerdo */;
+    margin: -3px 20px 0px 20px; 
 }
 #icon4{
     height: 40px;
@@ -144,12 +178,12 @@ table tr{
     height: 200px;
     list-style-type: none;
     display: flex;
-    margin: 20px 120px 0px 120px; /* superior, direito, inferior, esquerdo */
+    margin: 20px 120px 0px 120px; 
     justify-content: space-between;
 }
 
 #IedaT{
-    margin: 0px 0px 0px 50px; /* superior, direito, inferior, esquerdo */;
+    margin: 0px 0px 0px 50px; 
 }
 
 #icons3{
@@ -161,7 +195,7 @@ table tr{
 #icon5{
     height: 46px;
     width: 46px;
-    margin: -3px 20px 0px 20px; /* superior, direito, inferior, esquerdo */;
+    margin: -3px 20px 0px 20px;
 }
 
 #icon6{
@@ -192,12 +226,12 @@ table tr{
     height: 200px;
     list-style-type: none;
     display: flex;
-    margin: 20px 100px 0px 120px; /* superior, direito, inferior, esquerdo */
+    margin: 20px 100px 0px 120px;
     justify-content: space-between; 
 }
 
 #MarcosT{
-    margin: 0px 0px 0px 50px; /* superior, direito, inferior, esquerdo */;
+    margin: 0px 0px 0px 50px;
 }
 
 #icons4{
@@ -211,5 +245,25 @@ table tr{
 #icon6{
     height: 46px;
     width: 46px;
-    margin: -3px 20px 0px 20px; /* superior, direito, inferior, esquerdo */;
+    margin: -3px 20px 0px 20px;
+}
+.footer {
+    padding: 20px 0; 
+    position: relative;
+    bottom: 0; 
+    width: 100%; 
+    align-items: center;
+}
+.footer .social-icon {
+    margin: 0 15px; 
+}
+
+.footer img {
+    width: 30px; 
+    height: 30px; 
+}
+
+.footer p {
+    margin-top: 10px; 
+    color: #036527; 
 }

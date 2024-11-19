@@ -1,8 +1,95 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Fascinate&family=Oi&family=Plaster&family=Suravaram&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Courgette&family=Fascinate&family=Oi&family=Plaster&family=Suravaram&display=swap');
 
-*{
-    margin:0;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8e0; 
+    color: #333; 
+}
+
+header {
+    background-color: #d2ffb2; 
+    color: white;
+    padding: 10px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 15px;
+    color: #24550c;
+    font-family:"Fascinate", serif;
+}
+
+.nav-item a {
+    color: rgb(8, 77, 29);
     text-decoration: none;
-    padding:0;
-    box-sizing: 0;
+    transition: color 0.3s;
+}
+
+    
+
+.texto{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #efdcc7;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    height: 100%;
+}
+h1{
+    font-family: "Oi", serif;
+}
+
+p {
+    font-family: "Courgette", serif;
+}
+
+body{
+    background-color:#fff3e7;
+}
+
+.ieda .col-2{
+    margin-top: 200px;
+}
+
+.separa{
+    margin-top: 5%;   
+}
+
+.bordaImagem img{
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    height: 100%;
+}
+.footer {
+    padding: 20px 0; 
+    position: relative;
+    bottom: 0; 
+    width: 100%; 
+    align-items: center;
+}
+.footer .social-icon {
+    margin: 0 15px; 
+}
+
+.footer img {
+    width: 30px; 
+    height: 30px; 
+}
+
+.footer p {
+    margin-top: 10px; 
+    color: #036527; 
 }
